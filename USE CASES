@@ -12,11 +12,23 @@ Main Success Scenario: Manager receives accurate license information for the req
 Failed End Conditions: Corporate manager receives inaccurate or invalid license information for the requested project packages
 Trigger: Corporate manager uploads or identifies project information to which license and vulnerability information is provided
 
-(You are only including vulnerability information in the Trigger for Use Case 1)
+Title: Determine Vulnerability Information
+Primary Actor: Manager
+Goal in Context: The manager is able to determine vulnerability information from provided software vulnerability database
+Stakeholders:
+        Manager: To receive clear and relevant vulnerability information
+        Developer: To provide the relevant file/package level information
+        Project Owner: To clearly understand corporate manager decisions to green/red light a project
+Preconditions:
+        Relevant file/package information is in the software vulnerability database
+        Proper project information has been provided
+Main Success Scenario: Manager receives accurate vulnerability information for the requested project packages
+Failed End Conditions: Corporate manager receives inaccurate or invalid vulnerability information for the requested project packages
+Trigger: Corporate manager uploads or identifies project information to which license and vulnerability information is provided
 
 Title: Submit File For License or Vulnerability Scan
 Primary Actor: Software Developer
-Goal In context: Make developer aware of the licenses and vulnerabilities present within the submitted software package
+Goal In Context: Make developer aware of the licenses and vulnerabilities present within the submitted software package
 Stakeholder: 
         Developer: to submit valid software packages
 Preconditions:
@@ -24,3 +36,14 @@ Preconditions:
 Main Success Scenario: Developer receives valid license and vulnerability information and the license information is uploaded to the software database.
 Failed End Conditions: Developer or database receive invalid or inaccurate license or vulnerability information
 Trigger: Developer uploads a software package
+
+Title: Submit File as New Policy Document
+Primary Actor: Manager
+Goal In Context: Add a new file to the database storing corporate policy documents
+Stakeholder:
+        Manager: to submit valid policy documents
+Preconditions:
+        Policy document is a valid and recognized file format
+Main Success Scenario: Database receives and stores a new policy document
+Failed End Conditions: Database receives an invalid policy document
+Trigger: Manager uploads a new policy document
