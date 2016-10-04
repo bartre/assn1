@@ -2,15 +2,17 @@ Title: Determine License Information
 Primary Actor: Manager
 Goal in Context: The manager is able to determine license information from provided software license database
 Stakeholders:
-        Manager: To receive clear and relevant project information
+        Manager: To receive clear and relevant license information
         Developer: To provide the relevant file/package level information
         Project Owner: To clearly understand corporate manager decisions to green/red light a project
 Preconditions:
         Relevant file/package information is in the software license database
         Proper project information has been provided
-Main Success Scenario: manager receives accurate license information for the requested project packages
+Main Success Scenario: Manager receives accurate license information for the requested project packages
 Failed End Conditions: Corporate manager receives inaccurate or invalid license information for the requested project packages
 Trigger: Corporate manager uploads or identifies project information to which license and vulnerability information is provided
+
+(You are only including vulnerability information in the Trigger for Use Case 1)
 
 Title: Submit File For License or Vulnerability Scan
 Primary Actor: Software Developer
@@ -18,7 +20,7 @@ Goal In context: Make developer aware of the licenses and vulnerabilities presen
 Stakeholder: 
         Developer: to submit valid software packages
 Preconditions:
-        Software packages must have documentation
-Main Success Scenario: Developer receives valid license or vulnerability information and the license information is uploaded to the software database.
+        Software packages must have documentation in NIST database and have licenses as identified by software license scanner
+Main Success Scenario: Developer receives valid license and vulnerability information and the license information is uploaded to the software database.
 Failed End Conditions: Developer or database receive invalid or inaccurate license or vulnerability information
 Trigger: Developer uploads a software package
