@@ -2,4 +2,4 @@
 
 This is the Data Flow Diagram for the class project
 
-![Imgur](http://i.imgur.com/8nDmZAH.jpg)
+![Imgur](http://i.imgur.com/gBYX0Mx.png)
