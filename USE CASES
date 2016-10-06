@@ -1,29 +1,17 @@
-Title: Determine License Information
+Title: Determine License and Vulnerability Information
 Primary Actor: Manager
-Goal in Context: The manager is able to determine license information from provided software license database
+Goal in Context: The manager is able to determine license and vulnerability information from provided software license and vulnerability
+database
 Stakeholders:
-        Manager: To receive clear and relevant license information
+        Manager: To receive clear and relevant license and vulnerability information
         Developer: To provide the relevant file/package level information
         Project Owner: To clearly understand corporate manager decisions to green/red light a project
 Preconditions:
-        Relevant file/package information is in the software license database
+        Relevant file/package information is in the software license and vulnerability database
         Proper project information has been provided
-Main Success Scenario: Manager receives accurate license information for the requested project packages
-Failed End Conditions: Corporate manager receives inaccurate or invalid license information for the requested project packages
-Trigger: Corporate manager uploads or identifies project information to which license and vulnerability information is provided
-
-Title: Determine Vulnerability Information
-Primary Actor: Manager
-Goal in Context: The manager is able to determine vulnerability information from provided software vulnerability database
-Stakeholders:
-        Manager: To receive clear and relevant vulnerability information
-        Developer: To provide the relevant file/package level information
-        Project Owner: To clearly understand corporate manager decisions to green/red light a project
-Preconditions:
-        Relevant file/package information is in the software vulnerability database
-        Proper project information has been provided
-Main Success Scenario: Manager receives accurate vulnerability information for the requested project packages
-Failed End Conditions: Corporate manager receives inaccurate or invalid vulnerability information for the requested project packages
+Main Success Scenario: Manager receives accurate license and vulnerability information for the requested project packages
+Failed End Conditions: Corporate manager receives inaccurate or invalid license and vulnerability information for the requested project 
+packages
 Trigger: Corporate manager uploads or identifies project information to which license and vulnerability information is provided
 
 Title: Submit File For License or Vulnerability Scan
