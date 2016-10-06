@@ -1,12 +1,12 @@
 #DFD dictionary
 
-#Entity
+#Entities
 #####Developer 
   Employee responsible for submitting code to the license scanner process
 #####Manager 
   Supervisor to Developer; Requests license information from the database
 
-#Process
+#Processes
 #####Scan Forwarding Software 
   controls the forwarding of submitted software packages and the scan results
 #####Scan for Licenses 
@@ -18,7 +18,7 @@
 #####Policy Document Submission Service 
   Allows the manager to submit either an entirely new or an updated policy document. forwards the new file to the Policy documents database
 
-#Database
+#Data Stores
 #####Software license and vulnerability database 
   stores information received from the Scan Forwarding Software, including license and vulnerability information from submitted software packages
 #####NIST vulnerability database 
@@ -26,7 +26,7 @@
 #####Policy documents database 
   stores documents detailing corporate policy, only managers can update or submit new files
 
-#Data flows
+#Data Flows
 #####Software package 
   the package submitted by the developer for license or vulnerability scanning
 #####Software package name 
