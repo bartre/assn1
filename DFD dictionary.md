@@ -13,7 +13,7 @@
   Program responsible for accepting submitted software packages and extracting license information
 #####Request for Software Project License and Vulnerability Information 
   takes a request from the manager, pulls all stored license and vulnerability information, and sends it to the manager
-##########Policy Document Forwarding Software 
+#####Policy Document Forwarding Software 
   takes a request from either the manager or the developer, pulls all stored policy documentation information, and sends it to the requesting entity.
 #####Policy Document Submission Service 
   Allows the manager to submit either an entirely new or an updated policy document. forwards the new file to the Policy documents database
