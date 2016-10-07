@@ -14,6 +14,9 @@ Failed End Conditions: Corporate manager receives inaccurate or invalid license 
 packages
 Trigger: Corporate manager uploads or identifies project information to which license and vulnerability information is provided
 
+COMMENT: My only concern here is that you are splitting one dataflow (request for license and vulnerability information) into two 
+use cases. But with four use cases, you are covered here. 
+
 Title: Submit File For License or Vulnerability Scan
 Primary Actor: Software Developer
 Goal In Context: Make developer aware of the licenses and vulnerabilities present within the submitted software package
