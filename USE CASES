@@ -27,12 +27,12 @@ Trigger: Developer uploads a software package
 
 Title: Submit File as New Policy Document
 Primary Actor: Manager
-Goal In Context: Add a new file to the database storing corporate policy documents
+Goal In Context: Add a new policy file to the database storing corporate policy documents
 Stakeholder:
         Manager: to submit valid policy documents
         Developer: new software package submissions may be impacted by new policy
 Preconditions:
-        Policy document is a valid and recognized file format
+        Policy document is a valid and in a recognized file format
 Main Success Scenario: Database receives and stores a new policy document
 Failed End Conditions: Database receives an invalid policy document
 Trigger: Manager uploads a new policy document
